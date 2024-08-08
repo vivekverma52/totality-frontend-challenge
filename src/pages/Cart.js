@@ -15,7 +15,7 @@ const CartDisplay = () => {
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-6">Cart Contents</h1>
       <div className="mb-6 text-xl font-semibold">
-        Total Price: <span className="text-yellow-500">${totalPrice.toFixed(2)}</span>
+        Total Price: <span className="text-yellow-500">Rs{totalPrice.toFixed(2)}</span>
       </div>
       {/* Proceed to Payment Button */}
       <div className="mb-6">
@@ -42,7 +42,7 @@ const CartDisplay = () => {
                       <span className="bg-green-500 text-white px-3 py-1 rounded-full">{house.type}</span>
                       <span className="bg-blue-500 text-white px-3 py-1 rounded-full">{house.country}</span>
                     </div>
-                    <div className="text-3xl font-semibold text-yellow-500 mb-4">${house.price}</div>
+                    <div className="text-3xl font-semibold text-yellow-500 mb-4">Rs{house.price}</div>
                     <div className="mb-4">
                       <div className="text-gray-700 mb-2"><strong>Bedrooms:</strong> {house.bedrooms}</div>
                       <div className="text-gray-700 mb-2"><strong>Bathrooms:</strong> {house.bathrooms}</div>
