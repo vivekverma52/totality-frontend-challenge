@@ -54,7 +54,7 @@ const Payment = () => {
           <h2 className="text-2xl font-semibold mb-6">Payment Information</h2>
           
           <div className="mb-6 text-xl font-semibold">
-            Total Price: <span className="text-yellow-500">${totalPrice.toFixed(2)}</span>
+            Total Price: <span className="text-yellow-500">Rs{totalPrice.toFixed(2)}</span>
           </div>
 
           <form onSubmit={handlePayment} className="space-y-4">
@@ -108,7 +108,7 @@ const Payment = () => {
               type="submit"
               className="w-full bg-blue-600 text-white py-2 rounded-md font-semibold"
             >
-              Pay ${totalPrice.toFixed(2)}
+              Pay Rs{totalPrice.toFixed(2)}
             </button>
           </form>
         </>
