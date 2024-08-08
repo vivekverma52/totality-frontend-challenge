@@ -36,4 +36,4 @@ Icons, such as RiMapPinLine, RiArrowDownLine, and RiArrowUpLine,
 enhance the user interface by visually representing features like location 
 markers and dropdown menus. 
 Here I have added the functionalities like filter, add to cart,Proceed to Payment.
-It is fully responsive website.
+It is fully responsive website. Here I have created the static data for database.
